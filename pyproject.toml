@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "accidentes_viales_2015"
+version = "0.0.1"
+description = "Un vistazo al comportamiento del registro de accidl a\u00f1o 2015"
+authors = [
+  { name = "Equipo ing. Caracteristicas" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.12.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["accidentes_viales_2015"]
+include = ["pyproject.toml", "accidentes_viales_2015/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["accidentes_viales_2015"]
+force-sort-within-sections = true
+
