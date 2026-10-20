@@ -9,7 +9,7 @@ Conscientizar las consecuencias de manejar en estado de ebriedad y fortalecer es
 
 #### Ideas de gráficas:
 - Mapa de calor de las horas en las que se registran más accidentes []
-- Gráfico de barras para mostrar la distribución de los días/meses con más registros []
+- Gráfico de barras para mostrar la distribución de los días/meses con más registros [Y]
 - Gráfico de barras viendo quién causa la mayor cantidad de accidentes [Y]
 - Gráfico de dona/barras respecto a la condición del automovilista (si presentaba aliento) [Y]
-- Distribución de edades (por bins)  de los automovilistas que causaron el accidente (incluir si se fugó) []
+- Distribución de edades (por bins)  de los automovilistas que causaron el accidente (incluir si se fugó) [Y]
